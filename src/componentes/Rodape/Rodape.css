@@ -1,0 +1,30 @@
+.footer {
+    background-color: #6278F7;
+    background-image: url(../../../public/imagens/fundo.png);
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+   }
+   .footer ul {
+    display: flex;
+    column-gap: 35px;
+    list-style: none;
+   }
+   .footer ul li a img{
+    max-width: 32px;
+   }
+   .footer p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+   }
+   @media screen and (max-width: 1400px) {
+    .footer {
+        flex-direction: column;
+    }
+    .footer .redeSociais {
+        margin-top: 20px;
+    }
+}
